@@ -17,6 +17,28 @@
 
 <body>
 
+    <!--
+    NOTE navbar-inverse does not seem to exist anymore, navbar-toggleable-* to navbar-expand-*
+    https://medium.com/@lukaszholeczek/how-to-upgrade-bootstrap-4-alpha-6-to-bootstrap-4-beta-d43b4210f2a3
+    -->
+
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">Ristorante Con Fusion</a>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./aboutus.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <header class="jumbotron">
         <div class="container">
             <div class="row row-header">
@@ -71,7 +93,7 @@
                     <h5>Links</h5>
                     <ul class="list-unstyled">
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
+                        <li><a href="./aboutus.html">About</a></li>
                         <li><a href="#">Menu</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
@@ -107,7 +129,7 @@
     </footer>
 
 	<!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="node_modules/jquery/jquery.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/tether/dist/js/tether.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
