@@ -10,14 +10,12 @@
   },
   "author": "Alessio Moretti",
   "license": "ISC",
-  "devDependencies": {
-    "bootstrap": "^4.0.0-beta.4",
-    "jquery": "^1.12.4",
-    "lite-server": "^2.2.2",
-    "popper.js": "^1.14.1"
-  },
   "dependencies": {
-    "font-awesome": "^4.7.0"
+    "bootstrap": "^4.0.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1",
+    "lite-server": "^2.2.2",
+    "popper.js": "^1.12.9"
   },
   "repository": {
     "type": "git",
